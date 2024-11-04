@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/style_ex1.css">
+    <link rel="stylesheet" href="./style/general.css">
+    <script src="./scripts/navbar.js"></script>
+
+    <title>Exercice 1</title>
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <div class="wrapper">
+        <div id="en_tete">
+            <span id="title">QUESTIONNAIRE 1</span>
+            <span id="pre_nom">JONAS BETTE</span>
+        </div>
+        <div id="q_a">
+            <ol>
+                <!-- Questions 1 -->
+                <li class="question">Quel langage est utilisé pour définir l'apparence d'une page web ?</li>
+                <p id="a_1">Le langage utilisé est le <strong>CSS</strong>.</p>
+
+                <!-- Questions 2 -->
+                <li class="question">Quelle balise est utilisée pour créer un lien ?</li>
+                <p id="a_2">La balise utilisée est <strong>&lt;a&gt;</strong>.</p>
+
+                <!-- Questions 3 -->
+                <li class="question">Quelle balise est utilisée pour insérer une image ? <i>(Veuillez barrer les
+                        mauvaises réponses)</i>
+                </li>
+                <p id="a_3">
+                    img <br>
+                    <s>image</s> <br>
+                    <s>picture</s>
+                </p>
+
+                <!-- Questions 4 -->
+                <li class="question">La balise &lt;title&gt; doit-elle se trouver au sein de la balise &lt;head&gt; ou
+                    &lt;body&gt; ?
+                </li>
+                <p id="a_4">Elle doit se trouver dans <strong>&lt;head&gt;</strong>.</p>
+
+                <!-- Questions 5 -->
+                <li class="question">Quelle est le nom de la technique utilisée pour modifier l'apparence d'un élément
+                    au survol de la souris ?</li>
+                <p id="a_5">On utilise un mot-clé <strong>hover</strong> dans le CSS de cette manière :
+                    <strong>element:hover { ...
+                        }</strong>
+                </p>
+
+                <!-- Questions 6 -->
+                <li class="question">Ecrivez une déclaration css qui mettrait en couleur un élément et le rendrait
+                    légerement
+                    transparent.</li>
+                <p id="a_6">#id_elem { <br>
+                    &emsp; color: red; <br>
+                    &emsp; opacity: 0.8; <br>
+                    }
+                </p>
+
+                <!-- Questions 7 -->
+                <li class="question">Quelle déclaration CSS dois-je utiliser pour centrer en largeur un élément de type
+                    bloc ?</li>
+                <p id="a_7">On utilise la déclaration <strong>margin: auto;</strong> comme dans cet exemple : <br>
+                    #id_elem { <br>
+                    &emsp; <strong>margin: auto;</strong> <br>
+                    }
+                </p>
+
+                <!-- Questions 8 -->
+                <li class="question">Quelle est la différence entre le modèle standard et le modèle alternatif du modèle
+                    de boites ?
+                    <i>(Expliquez avec vos mots)</i>
+                </li>
+                <p id="a_8">
+                    Le modèle standard prend la largeur et la hauteur de l'élément mais sans les marges
+                    extérieures, les bordures et les marges intérieures. Ce qui fait qu'on a une boîte plus grande que
+                    prévue. À
+                    contrario, le modèle alternatif prend en compte les bordures et les marges intérieures, mais pas les
+                    marges extérieures. Ce qui fait qu'on a une boîte plus proche de la taille qu'on lui donne mais avec
+                    toujours un décalage dû aux marges extérieures.
+                </p>
+
+                <!-- Questions 9 -->
+                <li class="question">Quelle est la différence entre la balise &lt;ol&gt; et la balise &lt;ul&gt; ?
+                    <i>(Expliquez avec vos
+                        mots)</i>
+                </li>
+                <p id="a_9">La balise <strong>&lt;ol&gt;</strong> est utilisée pour créer une liste ordonnée où le
+                    placement des éléments dedans est important tandis que la balise
+                    <strong>&lt;ul&gt;</strong> est utilisée pour créer une liste non ordonnée, on n'a pas besoin de
+                    s'inquiéter de si on les a mal placés.
+                </p>
+
+                <!-- Questions 10 -->
+                <li class="question">Ecrivez des déclarations CSS mettant la bordure supérieure d'un élément en rouge et
+                    ayant une marge
+                    intérieure de 1rem en haut, à gauche et en bas mais pas à droite.</li>
+                <p id="a_10">
+                    #id_elem { <br>
+                    &emsp; border-top: 1px solid red; <br>
+                    &emsp; padding: 1rem 0 1rem 1rem; <br>
+                    }
+                </p>
+
+                <!-- Questions 11 -->
+                <li class="question">La déclaration "height: 100px;" a t-elle du sens si elle est appliquée sur une
+                    balise &lt;strong&gt;
+                    ? <br> Si non, pourquoi ?</li>
+                <p id="a_11">Non, car la balise <strong>&lt;strong&gt;</strong> est une balise de texte en ligne et n'a
+                    pas de hauteur.
+                </p>
+
+                <!-- Questions 12 -->
+                <li class="question">La déclaration "height: 100px;" a t-elle du sens si elle est appliquée sur une
+                    balise &lt;h1&gt; ?
+                    <br> Si non, pourquoi ?
+                </li>
+                <p id="a_12">Oui, car la balise <strong>&lt;h1&gt;</strong> est une balise de bloc et peut avoir une
+                    hauteur.</p>
+
+                <!-- Questions 13 -->
+                <li class="question">Quelle déclaration CSS est correcte ? <br>
+                    1. color: #123456; <br>
+                    2. color: FB120A;
+                </li>
+                <p id="a_13">La première, <strong>color: #123456;</strong></p>
+
+                <!-- Questions 14 -->
+                <li class="question">Citez 3 unités différentes qu'on peut utiliser pour définir la taille d'un texte.
+                </li>
+                <p id="a_14_1">px, rem, em</p>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>

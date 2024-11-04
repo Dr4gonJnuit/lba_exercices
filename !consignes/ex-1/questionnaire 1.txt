@@ -1,0 +1,46 @@
+Consigne:
+Ce devoir consiste en une partie théorique et une partie pratique.
+Vous trouverez ci-joint un fichier .txt et deux images.
+
+Le fichier txt contient une liste de question. Vous devez reproduire le question en html/css pour qu’il ressemble au maximum aux images jointes. 
+
+Veuillez ensuite répondre aux questions, directement au sein du fichier html.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+1. Quel langage est utilisé pour définir l'apparence d'une page web ?
+
+
+2. Quelle balise est utilisée pour créer un lien ? 
+
+
+3.  Quelle balise est utilisée pour insérer une image ? (Veuillez barrer les mauvaises réponses)
+img
+image
+picture
+
+4. La balise <title> doit-elle se trouver au sein de la balise <head> ou <body> ?
+
+5. Quelle est le nom de la technique utilisée pour modifier l'apparence d'un élément au survol de la souris ?
+
+6. Ecrivez une déclaration css qui mettrait en couleur un élément et le rendrait légerement transparent.
+
+7. Quelle déclaration CSS dois-je utiliser pour centrer en largeur un élément de type bloc ?
+
+8. Quelle est la différence entre le modèle standard et le modèle alternatif du modèle de boites ? (Expliquez avec vos mots)
+
+9. Quelle est la différence entre la balise <ol> et la balise <ul> ? (Expliquez avec vos mots)
+
+10. Ecrivez des déclarations CSS mettant la bordure supérieure d'un élément en rouge et ayant une marge intérieure de 1rem en haut, à gauche et en bas mais pas à droite. 
+
+11. La déclaration "height: 100px;" a t-elle du sens si elle est appliquée sur une balise <strong> ?
+Si non, pourquoi ? 
+
+12.  La déclaration "height: 100px;" a t-elle du sens si elle est appliquée sur une balise <h1> ?
+Si non, pourquoi ? 
+
+13.  Quelle déclaration CSS est correcte ?
+1. color: #123456;
+2. color: FB120A;
+
+14. Citez 3 unités différentes qu'on peut utiliser pour définir la taille d'un texte.
