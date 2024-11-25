@@ -1,0 +1,7 @@
+Vous devez réaliser un site web contenant 1 menu à gauche, fixe – il apparait tout le temps à l’écran, même si on scroll sur la page et doit faire 100% de la hauteur de l’écran – et 3 pages différents 
+
+Une page “articles”, contenant une liste d’article
+Une page “Librairie”, contenant une une mosaique de photo (Belles images et photos gratuites | Unsplash : https://unsplash.com/fr)
+Une page “Coups de coeur” contenant une liste d’oeuvre (livre, film, ...) disposant à chaque fois d’un titre, d’un auteur, d’une illustration et d’un texte présentant l’oeuvre à coté de l’illustration
+
+Vous trouverez joint à cet exercice des mockups des écrans. Vous avez le champ libre pour le style visuel que vous souhaitez donner à votre site, uniquement les consignes écrites au dessus et la disposition générale des écrans doivent être respectées.

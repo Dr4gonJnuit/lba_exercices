@@ -2,5 +2,6 @@
     "[html]": {
         "editor.formatOnSave": true
     },
-    "svg.preview.background": "dark-transparent"
+    "files.useExperimentalFileWatcher": true,
+    "workbench.colorTheme": "Default Dark+"
 }

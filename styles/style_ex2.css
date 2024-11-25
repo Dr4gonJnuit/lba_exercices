@@ -1,0 +1,56 @@
+html, body {
+    font-size: 18px;
+}
+
+.box {
+    display: flex;
+    font-weight: bold;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.space-center {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.square {
+    height: 10rem;
+    width: 10rem;
+}
+
+.rectangle {
+    height: 5rem;
+    width: 10rem;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.green {
+    background-color: green;
+}

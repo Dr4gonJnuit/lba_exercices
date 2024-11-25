@@ -1,0 +1,186 @@
+html,
+body {
+  font-size: 14px;
+}
+
+/*************
+* ID Section *
+**************/
+#titre-page {
+  font-size: 5em;
+}
+
+#livres {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+/****************
+* Class Section *
+*****************/
+.navbar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100vh;
+  padding: 5vh 20px 20px 20px;
+  background-color: #a5d8ff;
+  color: #4e97d9;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.navbar-item {
+  padding: 10px;
+}
+
+.navbar-link {
+  font-size: 24px;
+  color: #4e97d9;
+  text-decoration: none;
+}
+
+.navbar-link.active {
+  color: #cbb17c;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  padding: 20px;
+  padding-left: 200px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.titre {
+  margin: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.texte {
+  margin-top: 0;
+}
+
+.infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 30%;
+}
+
+.titre-auteur {
+  font-size: 1.5rem;
+}
+
+.informations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.auteur-oeuvre::before {
+  content: "-";
+  margin: 0 10px;
+  font-size: 1em;
+  color: black;
+}
+
+.image-placeholder {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  /* background-image: repeating-linear-gradient(
+    -45deg,
+    lightblue,
+    rgba(0, 0, 255, 0) 2%
+  );
+  border: 3px dashed lightblue; */
+  border-radius: 5%;
+}
+
+.image {
+  width: 100%;
+  border-radius: 5%;
+}
+/* Essayer de fusionner image et image-oeuvre */
+.image-oeuvre {
+  justify-self: center;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+/***************
+* TEST Section *
+****************/
+
+/* -> C'est pour avoir un espace entre le haut de la page et le premier élément de la navbar
+ * On a donc plus une "boite" que tout le contenu de la page
+.navbar {
+    height: calc(100vh - 56px);
+}
+/* .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    width: auto;
+    height: calc(100vh - 56px);
+    padding: 20px;
+    background-color: #A5D8FF;
+    color: #4E97D9;
+}
+&>ul {
+    margin: 0;
+    padding: 0;
+}
+&>li {
+    padding: 10px;
+    color: #4E97D9;
+    text-decoration: none;
+    list-style-type: none;
+            }
+        }
+
+&>ul>li.navbar-item {
+}
+&>a.navbar-link {
+    font-size: 24px;
+    color: #4E97D9;
+    text-decoration: none;
+}
+&.active {
+    color: #CBB17C;
+            }
+        }
+    }
+} */
