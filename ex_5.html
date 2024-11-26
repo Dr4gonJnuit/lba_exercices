@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS/JavaScript -->
+    <link rel="stylesheet" href="./styles/style_ex5.css">
+
+    <title>Exercice 5 : Formulaire</title>
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <div class="container">
+        <h1 id="titre-page">Formulaire : Character creation</h1>
+
+        <!-- Shouid Replace the div with tr to use array instead of "flexbox" or try below another version of this -->
+        <div id="formulaire">
+            <div id="inputs">
+                <div class="row">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+
+                    <label for="origin">Origin</label>
+                    <select name="origin" id="origin" required>
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="altmer">Altmer</option>
+                        <option value="argonian">Argonian</option>
+                        <option value="bosmer">Bosmer</option>
+                        <option value="breton">Breton</option>
+                        <option value="dunmer">Dunmer</option>
+                        <option value="imperial">Imperial</option>
+                        <option value="khajiit">Khajiit</option>
+                        <option value="nord">Nord</option>
+                        <option value="orc">Orc</option>
+                        <option value="redguard">Redguard</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <label for="class">Class</label>
+                    <select name="class" id="class" required>
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="warrior">Warrior</option>
+                        <option value="mage">Mage</option>
+                        <option value="thief">Thief</option>
+                    </select>
+
+                    <label for="birth-date">Birth date</label>
+                    <input type="date" name="birth-date" id="birth-date" required>
+                </div>
+
+                <label for="desc">Description</label>
+                <textarea name="desc" id="desc" rows="5" cols="10"></textarea>
+
+                <div class="row">
+                    <label for="richest">Richest</label>
+                    <select name="richest" id="richest" required>
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="poor">Poor</option>
+                        <option value="middle">Middle</option>
+                        <option value="rich">Rich</option>
+                    </select>
+
+                    <label for="born-place">Born place</label>
+                    <select name="born-place" id="born-place" required>
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="skyrim">Skyrim</option>
+                        <option value="morrowind">Morrowind</option>
+                        <option value="cyrodiil">Cyrodiil</option>
+                        <option value="elsweyr">Elsweyr</option>
+                        <option value="valenwood">Valenwood</option>
+                        <option value="hammerfell">Hammerfell</option>
+                        <option value="high-rock">High Rock</option>
+                        <option value="black-marsh">Black Marsh</option>
+                        <option value="summerset-isles">Summerset Isles</option>
+                        <option value="elsewyr">Elsewyr</option>
+                    </select>
+
+                    <label for="starting-magic">Starting magic</label>
+                    <select name="starting-magic" id="starting-magic">
+                        <option disabled selected value></option>
+                        <option value="illusion">Illusion</option>
+                        <option value="conjuration">Conjuration</option>
+                        <option value="destruction">Destruction</option>
+                        <option value="restoration">Restoration</option>
+                        <option value="alteration">Alteration</option>
+                    </select>
+                </div>
+            </div>
+
+            <button id="save" type="submit">Save</button>
+        </div>
+    </div>
+</body>
+
+</html>
